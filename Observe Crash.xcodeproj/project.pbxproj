@@ -12,6 +12,8 @@
 		7508B2182225E16200FB8511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7508B2162225E16200FB8511 /* Main.storyboard */; };
 		7508B21A2225E16400FB8511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7508B2192225E16400FB8511 /* Assets.xcassets */; };
 		7508B21D2225E16400FB8511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7508B21B2225E16400FB8511 /* LaunchScreen.storyboard */; };
+		7508B2262225E19100FB8511 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508B2242225E19100FB8511 /* TableViewController.swift */; };
+		7508B2272225E19100FB8511 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7508B2252225E19100FB8511 /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7508B2192225E16400FB8511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7508B21C2225E16400FB8511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7508B21E2225E16400FB8511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7508B2242225E19100FB8511 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7508B2252225E19100FB8511 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				7508B2192225E16400FB8511 /* Assets.xcassets */,
 				7508B21B2225E16400FB8511 /* LaunchScreen.storyboard */,
 				7508B21E2225E16400FB8511 /* Info.plist */,
+				7508B2242225E19100FB8511 /* TableViewController.swift */,
+				7508B2252225E19100FB8511 /* TableViewController.xib */,
 			);
 			path = "Observe Crash";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				7508B21D2225E16400FB8511 /* LaunchScreen.storyboard in Resources */,
 				7508B21A2225E16400FB8511 /* Assets.xcassets in Resources */,
 				7508B2182225E16200FB8511 /* Main.storyboard in Resources */,
+				7508B2272225E19100FB8511 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7508B2152225E16200FB8511 /* ViewController.swift in Sources */,
+				7508B2262225E19100FB8511 /* TableViewController.swift in Sources */,
 				7508B2132225E16200FB8511 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

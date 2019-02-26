@@ -9,12 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func openPressed(_ sender: Any) {
+        let tableVC = TableViewController(nibName: nil, bundle: nil)
+        let navC = UINavigationController(rootViewController: tableVC)
+        self.present(navC, animated: false, completion: nil)
     }
-
-
 }
 
