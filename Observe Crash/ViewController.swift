@@ -9,10 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBAction func openPressed(_ sender: Any) {
-        let tableVC = TableViewController(nibName: nil, bundle: nil)
-        let navC = UINavigationController(rootViewController: tableVC)
-        self.present(navC, animated: false, completion: nil)
-    }
+	@IBAction func openPressed(_ sender: Any) {
+		let tableVC = TableViewController(nibName: nil, bundle: nil)
+		let navC = UINavigationController(rootViewController: tableVC)
+		navC.modalPresentationStyle = .overFullScreen
+		self.present(navC, animated: false, completion: nil)
+	}
 }
 
